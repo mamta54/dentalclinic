@@ -13,8 +13,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 260px;
+  height: 100vh;
+  /* height: 100%;
+  width: 260px; */
   background: #061b28;
   z-index: 100;
   transition: all 0.5s ease;
@@ -122,6 +123,7 @@
 }
 .sidebar .nav-links li.showMenu .sub-menu{
   display: block;
+  padding-left: 0px;
   background-color: #061b28;
 }
 .sidebar .nav-links li .sub-menu a{
