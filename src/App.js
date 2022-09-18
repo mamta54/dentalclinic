@@ -1,19 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Sidebar from './compnonets/Sidebar/Sidebar';
-import D from './compnonets/Sidebar/D';
 import AddPatient from './compnonets/Content/Patient/AddPatient/AddPatient';
-
+import React, { useState, useEffect,useMemo } from "react";
 function App() {
   return (
-    // <div className="App">
-     <div className="AppContainer">
-     {/* <Sidebar/> */}
-    <D/>
-    
+     <div className="AppContainer">    
+    <Sidebar/>   
    <AddPatient/>
      </div>
-    // </div>
+    
   );
 }
 

@@ -2,6 +2,7 @@ import React from 'react'
 import PersonalDetail from './PersonalDetail'
 import ContactDetail from './ContactDetail'
 import './ContentPatient.css'
+
 const AddPatient = () => {
   return (
    <div className='content'>
